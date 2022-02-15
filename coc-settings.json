@@ -6,6 +6,8 @@
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
-  }
-}
+  },
+  "prettier.disableLanguages": true,
+  "coc.preferences.formatOnSaveFiletypes": ['typescript', 'typescriptreact']
+} 
 

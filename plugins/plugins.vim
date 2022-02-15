@@ -11,6 +11,7 @@ Plug 'ghifarit53/tokyonight-vim'
 
 " "IDE
 Plug 'easymotion/vim-easymotion'
+Plug "ianks/vim-tsx" 
 "Navigate with C-h C-l C-j C-k
 "Navegar con C-h C-l C-j C-k
 Plug 'christoomey/vim-tmux-navigator'
