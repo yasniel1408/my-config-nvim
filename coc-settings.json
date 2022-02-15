@@ -1,5 +1,5 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json"], 
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "typescript", "typescriptreact"], 
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
@@ -8,6 +8,5 @@
     "v": "open:vsplit"
   },
   "prettier.disableLanguages": true,
-  "coc.preferences.formatOnSaveFiletypes": ['typescript', 'typescriptreact']
 } 
 
