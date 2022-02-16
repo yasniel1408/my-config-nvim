@@ -20,13 +20,14 @@ set sw=2
 set relativenumber
 let mapleader = " "
 set laststatus=2
+
 set backspace=2
 set guioptions-=T
 set guioptions-=L
 
 "Get out of insert mode 
 "Salir de modo insertar
-imap jk <Esc>
+imap nn <Esc>
 imap <C-c> <Esc>l
 "mueve bloques de codigo en modo visual o V-Line
 "Moves Blocks of code in visual mode or V-Line xnoremap K :move '<-2<CR>gv-gv xnoremap J :move '>+1<CR>gv-gv 

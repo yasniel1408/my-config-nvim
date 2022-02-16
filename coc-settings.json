@@ -7,6 +7,10 @@
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
-  "prettier.disableLanguages": true,
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 4,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.endOfLine": "lf", 
 } 
 
