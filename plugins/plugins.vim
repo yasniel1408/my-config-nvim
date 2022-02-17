@@ -11,13 +11,20 @@ Plug 'ghifarit53/tokyonight-vim'
 
 " "IDE
 Plug 'easymotion/vim-easymotion'
-Plug "ianks/vim-tsx" 
+
 "Navigate with C-h C-l C-j C-k
 "Navegar con C-h C-l C-j C-k
 Plug 'christoomey/vim-tmux-navigator'
+
+
 "NERDTREE
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
+Plug 'jistr/vim-nerdtree-tabs'      
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight' " enhance devicons
+
+
 
 "ChadTree (Nerdtree Alternative )
 "
@@ -44,9 +51,16 @@ Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
 "Smooth Scrolling
 Plug 'psliwka/vim-smoothie'
 
+"REACT
+Plugin 'mlaursen/vim-react-snippets'
 
 "_____________________________
 call plug#end()
