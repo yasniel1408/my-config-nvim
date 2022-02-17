@@ -1,37 +1,28 @@
 "Plugins
 call plug#begin('~/AppData/Local/nvim/plugged')
-" Temas
-" Themes
+"Temas
+"Themes
 Plug 'morhetz/gruvbox'
 Plug 'shinchu/lightline-gruvbox.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'joshdick/onedark.vim'
 Plug 'safv12/andromeda.vim'
 Plug 'ghifarit53/tokyonight-vim'
-
-" "IDE
+"IDE
 Plug 'easymotion/vim-easymotion'
-
 "Navigate with C-h C-l C-j C-k
 "Navegar con C-h C-l C-j C-k
 Plug 'christoomey/vim-tmux-navigator'
-
-
 "NERDTREE
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'jistr/vim-nerdtree-tabs'      
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight' " enhance devicons
-
-
-
-"ChadTree (Nerdtree Alternative )
-"
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 "Airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-" Stable version of coc
+"Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Close pairs () [] {} ''
 "Cerrar los pares () [] {} '' 
@@ -58,9 +49,10 @@ Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 "Smooth Scrolling
 Plug 'psliwka/vim-smoothie'
-
 "REACT
-Plugin 'mlaursen/vim-react-snippets'
-
+Plug 'SirVer/ultisnips'
+Plug 'mlaursen/vim-react-snippets'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
 "_____________________________
 call plug#end()
